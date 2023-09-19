@@ -1,5 +1,5 @@
 <?php
-// Function using a for loop
+
 function printEvenNumbersFor($start, $end, $step) {
     for ($i = $start; $i <= $end; $i += $step) {
         echo $i . ' ';
@@ -7,7 +7,6 @@ function printEvenNumbersFor($start, $end, $step) {
     echo '<br>';
 }
 
-// Function using a while loop
 function printEvenNumbersWhile($start, $end, $step) {
     $i = $start;
     while ($i <= $end) {
@@ -17,7 +16,6 @@ function printEvenNumbersWhile($start, $end, $step) {
     echo '<br>';
 }
 
-// Function using a do-while loop
 function printEvenNumbersDoWhile($start, $end, $step) {
     $i = $start;
     do {
@@ -27,7 +25,6 @@ function printEvenNumbersDoWhile($start, $end, $step) {
     echo '<br>';
 }
 
-// Call the functions
 echo "Using for loop: ";
 printEvenNumbersFor(2, 20, 2);
 
